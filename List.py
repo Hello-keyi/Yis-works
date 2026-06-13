@@ -22,3 +22,30 @@ y = 7
 num.remove(y)
 print(num)
 print(y)
+
+
+word = ['morinig','happy','sun','river','hello','good','light','swing']
+print(word)
+word.sort()
+print(word)
+word.sort(reverse = True)
+print(word)
+
+print(f"这是原来的{word}\n")
+print(f"这是改后的{sorted(word)}")
+print(f"\n现在是{word}")
+word.reverse()
+print(word)
+word.reverse()
+print(word)
+
+print(len(num))
+print(len(pep))
+print(len(word))
+print(word[-2])
+for w in word:
+    print(f'{w}in the list\n')
+
+for i in range(1,100):
+    print(i)
+
