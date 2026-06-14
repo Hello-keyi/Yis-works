@@ -48,5 +48,29 @@ for w in word:
 
 for i in range(1,100):
     print(i)
+print(i)
+square = [i**2 for i in range(1,122)]
+print(square)
+print(i)
+print(min(square))
+print(max(square))
+print(sum(square))
 
-#hello
+del square[:]
+del num[:]
+del pep[:]
+print(num)
+print(num)
+print(square)
+
+num = [i for i in range(1,100)]
+print(num)
+print (num[2:23])
+for i in num[-56:]:
+    print(i**3)
+    num.append(i**3)
+print(num)
+num1 = num
+num2 = num[2:4]
+print(num1)
+print(num2)
