@@ -65,3 +65,40 @@ greet_users(usernames)
 
 
 
+def move (a,b):
+    while a :
+        c = a.pop()
+        b.append(c)
+    return b
+ab = [1,2,3,4,5]
+cd = [32,42,44,52]
+print(move(ab[:],cd))
+print(ab)
+print(move(ab,cd))
+print(ab)
+
+
+
+def t (*abc):
+    print(abc)
+print(t(1,2,3,4,5,6))
+
+
+
+def tt (a,b,*c):
+    print(a)
+    print(b)
+    print(c)
+print(tt(1,2,3,4,5,6,7,8,9,0))
+
+
+
+dicc = {}
+def built(a,*f) :
+    dicc["first"]=a
+    return dicc
+
+
+
+
+
