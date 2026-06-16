@@ -30,7 +30,7 @@ def dic (first_name , last_name , age = None):
     return person
 marry = dic("marry","poter",)
 print(marry)
-"""
+
 
 
 def get_fullname(f_name,l_name):
@@ -54,7 +54,7 @@ while True:
     fullname = get_fullname(f_name,l_name)
     print(f"Hello {fullname}")
 
-"""
+
 
 def greet_users (names):
     for name in names:
@@ -97,7 +97,6 @@ dicc = {}
 def built(a,*f) :
     dicc["first"]=a
     return dicc
-
 
 
 
